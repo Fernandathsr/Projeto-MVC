@@ -1,0 +1,9 @@
+CREATE DATABASE projeto;
+use projeto;
+
+CREATE TABLE Usuario(
+id INT AUTO_INCREMENT PRIMARY KEY,
+userName varchar(100) not null,
+userLogin varchar(100) not null,
+userSenha varchar(100) not null
+);	
